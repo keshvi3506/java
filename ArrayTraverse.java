@@ -6,8 +6,7 @@ public class Basic_Input_Output {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
-        String name = sc.next(); 
-
+        String name = sc.next();
         sc.nextLine(); 
         System.out.print("Enter your full name: ");
         String fullName = sc.nextLine(); 
